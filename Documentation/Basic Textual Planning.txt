@@ -1,2 +1,48 @@
 Requirements:
+	MINUMUM
+	-------------------------------
+	Introduction Screen/Main Menu
+		Shows the name of game, and has controls on the main menu itself or in an option menu
+		
+	Sound;  Theme music, and appropriate sound effects.
 	
+	Appropriate use of basic collision detection
+	
+	Appropriate sprites
+	
+	Appropriate backgrounds
+	
+	A scoring system that is visible during gameplay
+	
+	An end screen saying "Game Over" or "Victory".  It should shows the player's score.
+	
+	
+	EXTRA
+	--------------------------------------
+	Implement per pixel collision detection
+	
+	Use XInput to create a class to handle input via the Xbox 360 controller
+	
+	Implement a Screen/Menu manager 
+	
+=============================================================================================
+
+
+	
+Game Synopsis:
+	Story:
+		Genre - High Fantasy
+		
+		Basic - You are a hero on the task of retrieving a powerful item from a dungeon for your deity.
+		
+		# Use word wrap ok :)
+		Complex - You are a hero tasked by your deity to retrieve an extremely powerful item that will surely tilt the war between the gods in your deities favour.  The rewards for this task are ascension to demi-godhood and eternal life.
+		
+	Gameplay:
+		Genre - Roguelike
+	
+		Basic - You explore a dungeon, picking up items, fighting monsters, solving puzzles and leveling up.
+		
+		Complex - You create characters of different classes. Death is permanent and the game must be restarted.  You explore the dungeon, searching for secret doors and levers. Item identities, Monster spawns and dungeon levels are all procedurally generated.  Items start unidentified and can have their properties revealed with a variety of methods.  Puzzles are a mix of problem solving (eg. Pull the levers in the right order), critical thinking (eg. Solving of riddles) and foresight (eg. Puzzles that have a limited).  
+	
+		
