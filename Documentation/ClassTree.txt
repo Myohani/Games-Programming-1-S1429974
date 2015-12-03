@@ -1,0 +1,86 @@
+Scene/World:
+
+
+Player:
+	Transform
+	Ship
+	Collider
+	Graphics
+	PlayerControl
+
+Enemy:
+	Transform
+	Ship
+	Collider
+	Graphics
+	Ai
+
+Shot:
+	Transform
+	Graphics
+	Collider
+	Projectile
+
+Map Element:
+	Transform
+	Graphics
+	Collider
+
+Pickup:
+	Transform
+	Collider
+	Graphics
+	PickupEffect
+	
+Hud Element:
+	Transform
+	Graphics
+	HudController  # might not be necessary, could add functionality directly to this class
+	
+
+
+
+Components:
+	Ai
+	Transform 
+	Ship (health, attack damage)
+	Graphics (sprite, width, height)
+	Collider (width, height)
+	PlayerControl
+	Projectile (damage)
+	PickupEffect:
+		PickupEffect1 (bomb screen.  kill all enemies)
+		PickupEffect2 (upgrade weapon)  # increase the number of projectiles and damage
+		PickupEffect3 (speed up)  # increases player ship speed
+	HudController
+	AudioSource
+		
+
+------------------------
+Render Order:
+	Background Map Elements
+	Middleground Map Elements
+	Pickups
+	Projectiles
+	Enemies
+	Player
+	Foreground Map Elements
+	Hud Elements
+	
+
+	
+-----------------------
+Detailed Class Descriptions
+
+Ship:
+	# variables
+	int health;
+	int projectile;
+	int weaponLevel;
+	parentObject;
+	
+	# methods
+	TakeDamage()  # subtract projectile damage from health, play sound effect, make graphics blink 
+	
+	
+	
